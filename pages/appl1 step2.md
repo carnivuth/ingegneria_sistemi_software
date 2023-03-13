@@ -1,0 +1,3 @@
+- si introduce una console locale
+- per il testing si rende l'applicazione osservabile, pattern observer
+-
