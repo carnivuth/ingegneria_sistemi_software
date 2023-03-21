@@ -1,5 +1,5 @@
 - ### ANALISI DEL PROBLEMA
-	- la command console per come viene concepita nello step 2 non è replicabile in ambiente remoto in quanto
+	- la command console per come viene concepita nello step 2 non è riusabile in ambiente remoto in quanto
 		- la console deve comunicare delle informazioni via rete, non è piu possibile effettuare una procedure call
 		- la command console deve essere indipendente dal protocollo di comunicazione utilizzato
 			- necessario creare un layer di astrazione
@@ -14,6 +14,8 @@
 			- possibile sfruttare il pattern observer
 				- il componente wrapper Appl1 diventa observer del supporto di comunicazione
 				- il supporto di comunicazione alla ricezione di un comando lo interpreta e notifica il componente appl1
+			- interfaccia supporto di comunicazione lato server
+			-
 		- configurazione mediante file
 			- sfruttare pattern factory per fornire alle classi la corretta implementazione
 			- necessarie due classi factory
