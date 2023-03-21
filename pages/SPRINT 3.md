@@ -28,13 +28,13 @@
   :LOGBOOK:
   CLOCK: [2023-03-21 Tue 14:36:31]
   :END:
-	- command console (client)
+	- #### command console (client)
 	  id:: 6419b2af-7f44-44e9-a934-aa788055c0bc
 		- sviluppo interfaccia supporto di comunicazione client
 		- sviluppo di implementazione pilota su protocollo di esempio (HTTP)
 		- sviluppo di factory per interfaccia di comunicazione client
 		- sviluppo di classe di integrazione per la comunicazione della command console
-	- componente Appl1
+	- #### componente Appl1
 	  id:: 6419b3e0-6e09-4ab1-afbf-01aa506ecb44
 		- sviluppo interfaccia per supporto di comunicazione server
 		- sviluppo di implementazione pilota su protocollo di esempio (HTTP)
