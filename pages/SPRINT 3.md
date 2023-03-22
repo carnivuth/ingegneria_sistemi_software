@@ -50,5 +50,5 @@
 	- la ricezione dei messaggi inviati dal robot tramite ws prevede una semantica asincrona
 	- la logica applicativa è pensata per interagire con il robot tramite chiamate sincrone
 	- per riutilizzare la classe che implementa la funzionalità applicativa si puo predisporre un wrapper che trasforma la semantica asincrona in semantica sincrona
-	- si puo predisporre una classe che mascheri l'asincronicità del supporto di comunicazione utilizzato
+	- si puo predisporre una classe che mascheri l'asincronicità del supporto di comunicazione utilizzato rendendo le comunicazioni con il robot bloccanti fino alla ricezione di un messaggio di stato
 	-
