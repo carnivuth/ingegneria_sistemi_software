@@ -45,6 +45,5 @@
 		- sviluppo interfaccia per supporto di comunicazione server
 		- sviluppo di implementazione pilota su protocollo di esempio (HTTP)
 		- sviluppo di factory per interfaccia di comunicazione server
-			- sviluppo del componente appl1 come observer del supporto di comunicazione
 	- le due fasi ((6419b3e0-6e09-4ab1-afbf-01aa506ecb44)) e ((6419b2af-7f44-44e9-a934-aa788055c0bc)) possono essere sviluppate in parallelo da team indipendenti che hanno come vincolo il linguaggio definito in ((6419b507-442e-4455-8a2e-b521439e7fa5))
 	-
