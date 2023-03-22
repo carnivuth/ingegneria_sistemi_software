@@ -1,4 +1,4 @@
-- ### ANALISI DEL PROBLEMA
+- ## ANALISI DEL PROBLEMA
 	- la command console per come viene concepita nello step 2 non è riusabile in ambiente remoto in quanto
 		- la console deve comunicare delle informazioni via rete, non è piu possibile effettuare una procedure call
 		- la command console deve essere indipendente dal protocollo di comunicazione utilizzato
