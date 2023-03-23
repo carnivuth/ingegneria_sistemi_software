@@ -1,12 +1,17 @@
-- REQUISITI
+- ### REQUISITI
   id:: 6405b673-493d-4c22-8c8a-9b4854701d1a
 	- copia incolla requisiti assegnati
-- ANALISI DEI REQUISITI
+	- si puo aggiungere il goal dello sprint in questione
+- ### ANALISI DEI REQUISITI
 	- analisi del testo contenuto nella sezione ((6405b673-493d-4c22-8c8a-9b4854701d1a))
 	- utilizzare linguaggio formale, fare riferimenti a eventuali docs se presenti
-- PROBLEM ANALISYS
+	- aggiungere sezione **keypoints**
+		- un keypoints contiene una considerazione di massima per quanto riguarda i requisiti
+- ### PROBLEM ANALISYS
 	- comprendere quali possono essere le problematiche nella realizzazione dei requisiti
 	- fornire informazioni su tempi di sviluppo e costi da intraprendere
 	- creare uno schema logico che anche se privo di dettagli tecnici miri a mostrare i componenti del sistema (può essere incluso in ((64047a85-7658-48f8-8b3f-919035c9c44c)) )
-- SPECIFICA NOME DEL TEMPLATE
+- ### TEST PLANS
+	- inserire considerazioni sui test e su come si intende implementarli
+- ### SPECIFICA NOME DEL TEMPLATE
 	- Appl1HTTPSprint(N)LonghiMatteoV(N)
