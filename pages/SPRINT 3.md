@@ -1,5 +1,5 @@
 - ## INTRODUZIONE
-	- componenti ottenuti nello step 2
+	- #### componenti ottenuti nello step 2
 		- **APPL1CORE**
 			- realizza le funzionalità di logica applicativa
 		- **COMMAND CONSOLE LOCALE**
