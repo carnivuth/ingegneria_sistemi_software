@@ -1,3 +1,11 @@
+- ## INTRODUZIONE
+	- componenti ottenuti nello step 2
+		- **APPL1CORE**
+			- realizza le funzionalità di logica applicativa
+		- **COMMAND CONSOLE LOCALE**
+			- command console locale al componente Appl1Core
+	- #### ARCHITETTURA LOGICA
+	- ![architettura_logica.jpg](../assets/architettura_logica_1679838417550_0.jpg)
 - ## ANALISI DEL PROBLEMA
 	- la command console per come viene concepita nello step 2 non è riusabile in ambiente remoto in quanto
 		- la console deve comunicare delle informazioni via rete, non è piu possibile effettuare una procedure call
