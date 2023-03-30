@@ -1,0 +1,9 @@
+- ### REQUISITI
+	- sviluppare applicazione che realizzi il ping pong
+- ### ANALISI DEI REQUISITI
+	- ping pong = scambio di messaggi tra due entita come inteso in interazione
+- ### ANALISI DEL PROBLEMA
+	- Il supporto di comunicazione fornisce strumenti per inviare messaggi e ricevere messaggi
+	- investigare sulla possibilità di rispondere a messaggi ricevuti dall'esterno
+- ### PROGETTAZIONE
+-
