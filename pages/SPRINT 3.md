@@ -55,8 +55,6 @@
 		- sviluppo di factory per interfaccia di comunicazione server
 	- le due fasi ((6419b3e0-6e09-4ab1-afbf-01aa506ecb44)) e ((6419b2af-7f44-44e9-a934-aa788055c0bc)) possono essere sviluppate in parallelo da team indipendenti che hanno come vincolo il linguaggio definito in ((6419b507-442e-4455-8a2e-b521439e7fa5))
 - ### comunicazione con WS
-	- la ricezione dei messaggi inviati dal robot tramite ws prevede una semantica asincrona
-	- la logica applicativa è pensata per interagire con il robot tramite chiamate sincrone
-	- per riutilizzare la classe che implementa la funzionalità applicativa si puo predisporre un wrapper che trasforma la semantica asincrona in semantica sincrona
-	- si puo predisporre una classe che mascheri l'asincronicità del supporto di comunicazione utilizzato rendendo le comunicazioni con il robot bloccanti fino alla ricezione di un messaggio di stato
+	- la ricezione dei messaggi inviati dal robot tramite ws prevede una semantica asincrona non bloccante
+	-
 	-
