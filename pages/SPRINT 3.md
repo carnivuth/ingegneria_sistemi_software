@@ -28,7 +28,6 @@
 			- questa astrazione può essere utilizzata per definire le necessità della comunicazione fra qualunque dei due componenti
 	- #### configurazione mediante file
 		- sfruttare pattern factory per fornire alle classi la corretta implementazione
-		- necessarie due classi factory
 	- #### linguaggio di comunicazione
 	  id:: 6419b507-442e-4455-8a2e-b521439e7fa5
 		- necessario definire in maniera formale il linguaggio di comunicazione tra console e componente Appl1
