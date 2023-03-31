@@ -58,7 +58,7 @@
 		- sviluppo interfaccia per supporto di comunicazione server
 		- sviluppo di implementazione pilota su protocollo di esempio (HTTP)
 		- sviluppo di factory per interfaccia di comunicazione server
-	- le due fasi  possono essere sviluppate in parallelo da team indipendenti che hanno come vincolo il linguaggio definito in ((6419b507-442e-4455-8a2e-b521439e7fa5))
+	- le due fasi  possono essere sviluppate in parallelo da team indipendenti che hanno come vincolo il linguaggio definito in linguaggio di comunicazione
 - ### comunicazione con WS
 	- la ricezione dei messaggi inviati dal robot tramite ws prevede una semantica asincrona non bloccante
 	- necessario definire un contratto con i componenti di alto livello per specificare la semantica delle chiamate
