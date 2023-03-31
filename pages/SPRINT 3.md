@@ -1,3 +1,8 @@
+- ## REQUISITI
+	- In questa nuova fase dello sviluppo, dobbiamo superare le limitazioni che ci siamo imposti in precedenza, la command console deve diventare remota
+- ## ANALISI DEI REQUISITI
+	- L’applicazione Appl1 viene ora concepito come un ente attivo capace di ricevere messaggi (comandi start/stop/resume) via P e interpretare tali messaggi, convertendoli in comandi a Appl1Core (e di qui a VirtualRobot23).
+	- CmdConsole deve diventare un ente attivo che interagisce con un utente umano e che invia comandi ad Appl1 usando il protocollo P
 - ## INTRODUZIONE
 	- #### componenti ottenuti nello step 2
 		- **APPL1CORE**
