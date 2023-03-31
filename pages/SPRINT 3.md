@@ -15,12 +15,11 @@
 	- command console
 		- la console deve comunicare delle informazioni via rete, non è piu possibile effettuare una procedure call
 		- la command console deve essere indipendente dal protocollo di comunicazione utilizzato
-			- necessario creare un layer di astrazione
 	- appl1
 		- per evitare di reimplementare la logica applicativa si decide di inglobare il POJO appl1Core in un adapter in grado di ricevere comandi dalla command console
 		- l'adapter deve essere indipendente dal protocollo di comunicazione utilizzato
+	- NECESSARIO DEFINIRE UN LAYER DI ASTRAZIONE PER IL SUPPORTO DI COMUNICAZIONE
 	- ####  supporto di comunicazione
-		- per poter astrarre la necessità di comunicazione di  alto livello
 		- astrazione al supporto di comunicazione
 			- interfaccia per le funzionalità necessarie al supporto di comunicazione client
 				- ```
