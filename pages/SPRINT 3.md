@@ -1,8 +1,3 @@
-- ## REQUISITI
-	- In questa nuova fase dello sviluppo, dobbiamo superare le limitazioni che ci siamo imposti in precedenza, la command console deve diventare remota
-- ## ANALISI DEI REQUISITI
-	- L’applicazione Appl1 viene ora concepito come un ente attivo capace di ricevere messaggi (comandi start/stop/resume) via P e interpretare tali messaggi, convertendoli in comandi a Appl1Core (e di qui a VirtualRobot23).
-	- CmdConsole deve diventare un ente attivo che interagisce con un utente umano e che invia comandi ad Appl1 usando il protocollo P
 - ## INTRODUZIONE
 	- #### componenti ottenuti nello step 2
 		- **APPL1CORE**
@@ -11,8 +6,13 @@
 			- command console locale al componente Appl1Core
 	- #### ARCHITETTURA LOGICA
 	- ![architettura_logica.jpg](../assets/architettura_logica_1679838417550_0.jpg)
+- ## REQUISITI
+	- In questa nuova fase dello sviluppo, dobbiamo superare le limitazioni che ci siamo imposti in precedenza, la command console deve diventare remota
+- ## ANALISI DEI REQUISITI
+	- L’applicazione Appl1 viene ora concepito come un ente attivo capace di ricevere messaggi (comandi start/stop/resume) via P e interpretare tali messaggi, convertendoli in comandi a Appl1Core (e di qui a VirtualRobot23).
+	- CmdConsole deve diventare un ente attivo che interagisce con un utente umano e che invia comandi ad Appl1 usando il protocollo P
 - ## ANALISI DEL PROBLEMA
-	- la command console per come viene concepita nello step 2 non è riusabile in ambiente remoto in quanto
+	- command console
 		- la console deve comunicare delle informazioni via rete, non è piu possibile effettuare una procedure call
 		- la command console deve essere indipendente dal protocollo di comunicazione utilizzato
 			- necessario creare un layer di astrazione
