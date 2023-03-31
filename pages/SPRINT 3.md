@@ -38,7 +38,11 @@
 		- la comunicazione avviene tramite stringhe in formato json
 		- `{command:CMD}`
 		- `CMD= start|stop|resume`
-		-
+	- #### TIPOLOGIE DI MESSAGGI
+		- la comunicazione tra command console e Appl1  avviene tramite dispatch dato che la command console non necessita di ricevere informazioni da Appl1
+		- la comunicazione tra Appl1 e virtual robot avviene tramite request
+	- #### ARCHITETTURA LOGICA
+		- ![Architettura_logica_step_3.jpg](../assets/Architettura_logica_step_3_1680267553655_0.jpg)
 - ### PIANO DI LAVORO
   :LOGBOOK:
   CLOCK: [2023-03-21 Tue 14:36:31]
@@ -54,10 +58,18 @@
 		- sviluppo interfaccia per supporto di comunicazione server
 		- sviluppo di implementazione pilota su protocollo di esempio (HTTP)
 		- sviluppo di factory per interfaccia di comunicazione server
-	- le due fasi ((6419b3e0-6e09-4ab1-afbf-01aa506ecb44)) e ((6419b2af-7f44-44e9-a934-aa788055c0bc)) possono essere sviluppate in parallelo da team indipendenti che hanno come vincolo il linguaggio definito in ((6419b507-442e-4455-8a2e-b521439e7fa5))
+	- le due fasi  possono essere sviluppate in parallelo da team indipendenti che hanno come vincolo il linguaggio definito in ((6419b507-442e-4455-8a2e-b521439e7fa5))
 - ### comunicazione con WS
 	- la ricezione dei messaggi inviati dal robot tramite ws prevede una semantica asincrona non bloccante
 	- necessario definire un contratto con i componenti di alto livello per specificare la semantica delle chiamate
 - ## PROGETTAZIONE
 	- ### architettura del sistema
-	-
+		- ![Progettazione step 3.jpg](../assets/Progettazione_step_3_1680270581654_0.jpg)
+		- Appl1 sfrutta il supporto per ricevere messaggi da cmd console e definisce un handler che viene lanciato alla ricezione dei pacchetti il quale a sua volta esegue le funzionalità offerte da appl1 core
+- ## DEPLOYMENT
+	- ### Configurazione
+		- i componenti Appl1 e Command console necessitano di essere configurati in maniera concorde
+			- configurazione statica
+			- configurazione determinata a runtime (handshake)
+		- la configurazione statica in un primo momento risulta piu immediata e meno time consuming
+		-
