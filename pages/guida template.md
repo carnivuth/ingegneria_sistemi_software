@@ -9,6 +9,7 @@
 	- utilizzare linguaggio formale, fare riferimenti a eventuali docs se presenti
 	- aggiungere sezione **keypoints**
 		- un keypoints contiene una considerazione di massima per quanto riguarda i requisiti
+	- discussioni su tecnologie e idee sono necessarie se motivate da questioni logistiche (tempo/cosi )
 - ### PROBLEM ANALISYS
 	- comprendere quali possono essere le problematiche nella realizzazione dei requisiti
 	- fornire informazioni su tempi di sviluppo e costi da intraprendere
