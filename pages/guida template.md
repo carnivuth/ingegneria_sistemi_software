@@ -3,7 +3,7 @@
 - ### REQUISITI
   id:: 6405b673-493d-4c22-8c8a-9b4854701d1a
 	- copia incolla requisiti assegnati
-	- si puo aggiungere il goal dello sprint in questione
+	- si deve aggiungere il goal dello sprint in questione
 - ### ANALISI DEI REQUISITI
 	- analisi del testo contenuto nella sezione ((6405b673-493d-4c22-8c8a-9b4854701d1a))
 	- utilizzare linguaggio formale, fare riferimenti a eventuali docs se presenti
