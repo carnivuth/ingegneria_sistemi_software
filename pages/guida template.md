@@ -17,8 +17,11 @@
 	- inserire  **PIANO DI LAVORO**
 	- non esplicare concetti noti (es pattern)
 	- ricerca delle possibili tecnologie e valutazione delle stesse
-	- priorita a cio che viene sviluppato in casa (basicomm23)
+	- priorita a cio che viene sviluppato in casa (*basicomm23*)
 - ### TEST PLANS
 	- inserire considerazioni sui test e su come si intende implementarli
 - ### SPECIFICA NOME DEL TEMPLATE
 	- Appl1HTTPSprint(N)LonghiMatteoV(N)
+- ### linee guida
+	- Fare riferimento a componenti definiti nelle architetture
+	-
