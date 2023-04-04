@@ -16,6 +16,8 @@
 	- creare uno schema logico che anche se privo di dettagli tecnici miri a mostrare i componenti del sistema (può essere incluso in ((64047a85-7658-48f8-8b3f-919035c9c44c)) )
 	- inserire  **PIANO DI LAVORO**
 	- non esplicare concetti noti (es pattern)
+	- ricerca delle possibili tecnologie e valutazione delle stesse
+	- priorita a cio che viene sviluppato in casa (basicomm23)
 - ### TEST PLANS
 	- inserire considerazioni sui test e su come si intende implementarli
 - ### SPECIFICA NOME DEL TEMPLATE
