@@ -4,8 +4,8 @@
 			- realizza le funzionalità di logica applicativa
 		- **COMMAND CONSOLE LOCALE**
 			- command console locale al componente Appl1Core
-	- #### ARCHITETTURA LOGICA
-	- ![architettura_logica.jpg](../assets/architettura_logica_1679838417550_0.jpg)
+	- #### ARCHITETTURA LOGICA DI ARRIVO SPRINT 2
+		- ![image.png](../assets/image_1681721374019_0.png)
 - ## REQUISITI
 	- In questa nuova fase dello sviluppo, dobbiamo superare le limitazioni che ci siamo imposti in precedenza, la command console deve diventare remota
 - ## ANALISI DEI REQUISITI
