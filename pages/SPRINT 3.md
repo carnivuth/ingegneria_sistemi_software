@@ -18,7 +18,7 @@
 	- appl1
 		- per evitare di reimplementare la logica applicativa si decide di inglobare il POJO appl1Core in un adapter in grado di ricevere comandi dalla command console
 		- l'adapter deve essere indipendente dal protocollo di comunicazione utilizzato
-	- ##### **NECESSARIO DEFINIRE UN LAYER DI ASTRAZIONE PER IL SUPPORTO DI COMUNICAZIONE**
+	- ##### NECESSARIO DEFINIRE UN LAYER DI ASTRAZIONE PER IL SUPPORTO DI COMUNICAZIONE
 	- ####  supporto di comunicazione
 		- astrazione al supporto di comunicazione
 			- interfaccia per le funzionalità necessarie al supporto di comunicazione client
