@@ -9,15 +9,14 @@
 - ## REQUISITI
 	- In questa nuova fase dello sviluppo, dobbiamo superare le limitazioni che ci siamo imposti in precedenza, la command console deve diventare remota
 - ## ANALISI DEI REQUISITI
-	- L’applicazione Appl1 viene ora concepito come un ente attivo capace di ricevere messaggi (comandi start/stop/resume) via P e interpretare tali messaggi, convertendoli in comandi a Appl1Core (e di qui a VirtualRobot23).
 	- CmdConsole deve diventare un ente attivo che interagisce con un utente umano e che invia comandi ad Appl1 usando il protocollo P
 - ## ANALISI DEL PROBLEMA
 	- command console
 		- la console deve comunicare delle informazioni via rete, non è piu possibile effettuare una procedure call
 		- la command console deve essere indipendente dal protocollo di comunicazione utilizzato
 	- appl1
-		- per evitare di reimplementare la logica applicativa si decide di inglobare il POJO appl1Core in un adapter in grado di ricevere comandi dalla command console
-		- l'adapter deve essere indipendente dal protocollo di comunicazione utilizzato
+		- per evitare di reimplementare la logica applicativa si decide di inglobare il POJO appl1Core in un componente Appl1 in grado di ricevere comandi dalla command console
+		- Appl1 deve essere in grado di comunicare con la command console, interpretarne i messaggi, e comandare la logica applicativa di conseguenza
 	- ##### NECESSARIO DEFINIRE UN LAYER DI ASTRAZIONE PER IL SUPPORTO DI COMUNICAZIONE
 	- ####  supporto di comunicazione
 		- astrazione al supporto di comunicazione
@@ -29,7 +28,6 @@
 				  public String receiveMsg(  )  throws Exception;
 				  public void close( )  throws Exception;
 				  ```
-			- questa astrazione può essere utilizzata per definire le necessità della comunicazione fra qualunque dei due componenti
 	- #### configurazione mediante file
 		- sfruttare pattern factory per fornire alle classi la corretta implementazione
 	- #### linguaggio di comunicazione
