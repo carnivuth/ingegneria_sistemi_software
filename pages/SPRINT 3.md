@@ -5,7 +5,7 @@
 		- **COMMAND CONSOLE LOCALE**
 			- command console locale al componente Appl1Core
 	- #### ARCHITETTURA LOGICA DI ARRIVO SPRINT 2
-		- ![image.png](../assets/image_1681722014856_0.png) ![image.png](../assets/image_1681721374019_0.png)
+		- ![image.png](../assets/image_1681722014856_0.png)
 - ## REQUISITI
 	- In questa nuova fase dello sviluppo, dobbiamo superare le limitazioni che ci siamo imposti in precedenza, la command console deve diventare remota
 - ## ANALISI DEI REQUISITI
@@ -18,7 +18,7 @@
 	- appl1
 		- per evitare di reimplementare la logica applicativa si decide di inglobare il POJO appl1Core in un adapter in grado di ricevere comandi dalla command console
 		- l'adapter deve essere indipendente dal protocollo di comunicazione utilizzato
-	- **NECESSARIO DEFINIRE UN LAYER DI ASTRAZIONE PER IL SUPPORTO DI COMUNICAZIONE**
+	- ##### **NECESSARIO DEFINIRE UN LAYER DI ASTRAZIONE PER IL SUPPORTO DI COMUNICAZIONE**
 	- ####  supporto di comunicazione
 		- astrazione al supporto di comunicazione
 			- interfaccia per le funzionalità necessarie al supporto di comunicazione client
