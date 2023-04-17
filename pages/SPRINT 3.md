@@ -29,7 +29,7 @@
 				  public void close( )  throws Exception;
 				  ```
 	- #### configurazione mediante file
-		- sfruttare pattern factory per fornire alle classi la corretta implementazione
+		- ##### sfruttare pattern factory per fornire alle classi la corretta implementazione
 	- #### linguaggio di comunicazione
 	  id:: 6419b507-442e-4455-8a2e-b521439e7fa5
 		- necessario definire in maniera formale il linguaggio di comunicazione tra console e componente Appl1
