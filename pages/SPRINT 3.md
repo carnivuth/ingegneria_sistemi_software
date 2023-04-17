@@ -5,7 +5,7 @@
 		- **COMMAND CONSOLE LOCALE**
 			- command console locale al componente Appl1Core
 	- #### ARCHITETTURA LOGICA DI ARRIVO SPRINT 2
-		- ![image.png](../assets/image_1681721374019_0.png)
+		- ![image.png](../assets/image_1681722014856_0.png) ![image.png](../assets/image_1681721374019_0.png)
 - ## REQUISITI
 	- In questa nuova fase dello sviluppo, dobbiamo superare le limitazioni che ci siamo imposti in precedenza, la command console deve diventare remota
 - ## ANALISI DEI REQUISITI
@@ -18,7 +18,7 @@
 	- appl1
 		- per evitare di reimplementare la logica applicativa si decide di inglobare il POJO appl1Core in un adapter in grado di ricevere comandi dalla command console
 		- l'adapter deve essere indipendente dal protocollo di comunicazione utilizzato
-	- NECESSARIO DEFINIRE UN LAYER DI ASTRAZIONE PER IL SUPPORTO DI COMUNICAZIONE
+	- **NECESSARIO DEFINIRE UN LAYER DI ASTRAZIONE PER IL SUPPORTO DI COMUNICAZIONE**
 	- ####  supporto di comunicazione
 		- astrazione al supporto di comunicazione
 			- interfaccia per le funzionalità necessarie al supporto di comunicazione client
@@ -42,7 +42,7 @@
 		- la comunicazione tra command console e Appl1  avviene tramite dispatch dato che la command console non necessita di ricevere informazioni da Appl1
 		- la comunicazione tra Appl1 e virtual robot avviene tramite request
 	- #### ARCHITETTURA LOGICA
-		- ![Architettura_logica_step_3.jpg](../assets/Architettura_logica_step_3_1680267553655_0.jpg)
+		- ![image.png](../assets/image_1681721624967_0.png)
 - ### PIANO DI LAVORO
   :LOGBOOK:
   CLOCK: [2023-03-21 Tue 14:36:31]
@@ -64,7 +64,7 @@
 	- necessario definire un contratto con i componenti di alto livello per specificare la semantica delle chiamate
 - ## PROGETTAZIONE
 	- ### architettura del sistema
-		- ![Progettazione step 3.jpg](../assets/Progettazione_step_3_1680270581654_0.jpg)
+		- ![image.png](../assets/image_1681721663923_0.png)
 		- Appl1 sfrutta il supporto per ricevere messaggi da cmd console e definisce un handler che viene lanciato alla ricezione dei pacchetti il quale a sua volta esegue le funzionalità offerte da appl1 core
 - ## DEPLOYMENT
 	- ### Configurazione
