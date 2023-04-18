@@ -20,6 +20,9 @@
 	- priorita a cio che viene sviluppato in casa (*basicomm23*)
 - ### TEST PLANS
 	- inserire considerazioni sui test e su come si intende implementarli
+- ### DEPLOYMENT
+	- specificare quale deployment è stato effettuato)
+	- no spiegazioni tecnologia
 - ### SPECIFICA NOME DEL TEMPLATE
 	- Appl1HTTPSprint(N)LonghiMatteoV(N)
 - ### linee guida
