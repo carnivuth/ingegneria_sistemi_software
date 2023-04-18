@@ -39,6 +39,7 @@ h1, h2, h3 {
 	padding: 5px;
 }
 
+
 top {
 	width: 100%;
 }
@@ -178,4 +179,7 @@ div.wrapdesc{
 div.imagedesc{
 	width: 85%;
 	margin: auto;
+}
+b{
+  color: red;
 }
