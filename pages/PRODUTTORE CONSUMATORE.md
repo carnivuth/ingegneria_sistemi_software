@@ -6,7 +6,6 @@
 		- **ManyNodes**: il *Consumatore* opera in suo proprio nodo, mentre i
 		- *Produttori* operano su K  nodi diversi (1<K<=N).
 - ## ANALISI DEI REQUISITI
-	-
 - ## ANALISI DEL PROBLEMA
 	- ### GESTIONE DELLA COMUNICAZIONE
 		- necessario implementare sistemi per il supporto alla comunicazione
