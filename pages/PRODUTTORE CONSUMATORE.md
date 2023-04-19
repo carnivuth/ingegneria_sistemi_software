@@ -1,12 +1,27 @@
 - ## REQUSITI
-	- Costruire un sistema software distribuito costituio da N (N>=1) Produttori che
-	  inviano informazione a  1 Consumatore, il quale elabora tale informazione, inviando un messaggio
-	  (con un risultato) al produttore mittente.
-	  La dislocazione dei componenti sui nodi di elaborazione può essere:
+	- Costruire un sistema software distribuito costituito da N (N>=1) Produttori che inviano informazione a  1 Consumatore, il quale elabora tale informazione, inviando un messaggio (con un risultato) al produttore mittente.
+	- La dislocazione dei componenti sui nodi di elaborazione può essere:
 		- **OneNode**: tutti i componenti operano nello stesso nodo;
 		- **2Nodes**: gli N *Produttori* operano in uno stesso nodo, mentre il *Consumatore* opera in un diverso nodo;
-		- **ManyNodes**: il *Consumatore* opera in suo proprio nodo, mentre i *Produttori* operano su K  nodi diversi (1<K<=N).
+		- **ManyNodes**: il *Consumatore* opera in suo proprio nodo, mentre i
+		- *Produttori* operano su K  nodi diversi (1<K<=N).
 - ## ANALISI DEI REQUISITI
-	- ###
+	-
 - ## ANALISI DEL PROBLEMA
+	- ### GESTIONE DELLA COMUNICAZIONE
+		- necessario implementare sistemi per il supporto alla comunicazione
+		- ##### POSSIBILITÀ
+			- sfruttare il supporto alla comunicazione fornito dalla libreria interaction
+			- sfruttare l'astrazione ad attori fornita in Actors23
+		- #### vantaggi di actor23
+			- piu semplice modificare la posizione dei produttori e consumatori nei nodi della rete
+			- testing semplificato
+	- ### PIANO DI LAVORO
+		- #### sfruttando interaction
+			- implementazione consumatore 3 giorni
+			- implementazione produttore 2 giorni
+			- testing di rete dei componenti 12 ore
+		- #### sfruttando actors23
+			- implementazione  consumatore e produttore 1 giorno
+			- testing connettività di rete
 - ## PROGETTO
