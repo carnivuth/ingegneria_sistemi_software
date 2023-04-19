@@ -5,5 +5,5 @@
 - ## ANALISI DEL PROBLEMA
 	- Il supporto di comunicazione fornisce strumenti per inviare messaggi e ricevere messaggi
 	- investigare sulla possibilità di rispondere a messaggi ricevuti dall'esterno
-- ### PROGETTAZIONE
+- ## PROGETTAZIONE
 -
