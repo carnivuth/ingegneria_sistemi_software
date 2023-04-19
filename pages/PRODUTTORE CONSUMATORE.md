@@ -7,6 +7,6 @@
 		- **2Nodes**: gli N *Produttori* operano in uno stesso nodo, mentre il *Consumatore* opera in un diverso nodo;
 		- **ManyNodes**: il *Consumatore* opera in suo proprio nodo, mentre i *Produttori* operano su K  nodi diversi (1<K<=N).
 - ## ANALISI DEI REQUISITI
--
+	- ###
 - ## ANALISI DEL PROBLEMA
 - ## PROGETTO
