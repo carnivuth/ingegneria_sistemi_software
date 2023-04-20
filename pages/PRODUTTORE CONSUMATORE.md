@@ -22,5 +22,5 @@
 			- testing di rete dei componenti 12 ore
 		- #### sfruttando actors23
 			- implementazione  consumatore e produttore 1 giorno
-			- testing connettività di rete
+			- testing connettività di rete 4 ore
 - ## PROGETTO
