@@ -1,4 +1,11 @@
 - ## INTRODUZIONE
+	- ### ARCHITETTURA LOGICA DI PARTENZA
+		- ![image.png](../assets/image_1682334308113_0.png)
+	- componenti ottenuti nello step precedente
+		- CmdConsole
+		- Appl1
+		- Appl1Core
+	- è inoltre presente una infrastruttura logica sviluppata internamente per la definizione di **attori** si faccia riferimento a [Actors23](file:///home/matteo/universita/iss/isslab23/iss23Material/html/Actors23.html)
 - ## REQUISITI
 	- Impostare un sistema software che permette ad un utente umano di inviare, mediante una Console, comandi:
 		- **start**: per indurre a *VirtualRobot* a percorrare il bordo perimetrale (libero da ostacoli) della stanza rappresentata ne *La scena di WEnv*
@@ -10,7 +17,10 @@
 		- prefigurare il tempi previsti per lo sviluppo e i tempi effettivi necessari per il completamento del sistema;
 		- indicare il modo con cui si ritiene opportuno distribuire il prodotto finale.
 - ## ANALISI DEI REQUISITI
+	- #### sonar
+		- componente della scena (inserire link)
 - ## ANALISI DEL PROBLEMA
+	-
 - ## TEST PLANS
 - ## PROGETTO
 - ## DEPLOYMENT
