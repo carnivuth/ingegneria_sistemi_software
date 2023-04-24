@@ -48,8 +48,8 @@
 			- implementazione delle logiche di costruzione del percorso del robot
 			- tempo previsto riutilizzando il codice dell'observer 1/2 ore
 		- #### REALIZZAZIONE CMDACTOR
-		-
-		-
+			- implementazione delle logiche di traduzione dei messaggi ricevuti dalla command console
+			- tempo previsto 30 minuti
 - ## TEST PLANS
 - ## PROGETTO
 - ## DEPLOYMENT
