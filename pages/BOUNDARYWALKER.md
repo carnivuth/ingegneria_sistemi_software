@@ -20,7 +20,10 @@
 	- #### sonar
 		- componente della scena (inserire link)
 - ## ANALISI DEL PROBLEMA
-	-
+	- ### I COMANDI
+		- la command console ideata nel precedente step soddisfa i requisiti di controllo sopra descritti, pertanto si prevede il riutilizzo per abbattere i costi di produzione
+	- ### LOGICA APPLICATIVA
+		- La logica applicativa necessita di essere rivista per poter soddisfare il requisito sonar
 - ## TEST PLANS
 - ## PROGETTO
 - ## DEPLOYMENT
