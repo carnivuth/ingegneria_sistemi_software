@@ -25,6 +25,15 @@
 	- ### LOGICA APPLICATIVA
 		- La logica applicativa necessita di essere rivista per poter soddisfare il requisito sonar
 		- necessario poter eseguire azioni alla ricezione dei messaggi che segnalano l'interazione con il sonar
+		- si prevede un attore che si occupi della intercomunicazione con il virtual robot
+			- il suo compito è quello di comunicare con il virtual robot, inivando messaggi di comando e
+	- ### COMUNICAZIONE CON LA COMMAND CONSOLE
+		- si prevede un attore il cui compito è quello di comunicare con la command console, interpretarne i messaggi e comunicare a sua volta con l'attore incaricato di eseguire la logica applicativa
+	- ### IL PROBLEMA DELLA GET PATH
+		- l'attuale implementazione della getPath risulta problematica in quanto prevede una cessione del controllo da parte della logica applicativa alla logica di aggiornamento dell'observer
+		- refactor della funzionalita sfruttando la comunicazione tramite eventi
+		- l'attore incaricato della logica applicativa non notifica piu degli observer ma genera eventi che possono essere catturati da altri attori
+		- si introduce un nuovo attore incaricato di costruire il path dell robot elaborando gli eventi generati dall' attore
 		-
 - ## TEST PLANS
 - ## PROGETTO
