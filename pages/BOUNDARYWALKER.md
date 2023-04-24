@@ -35,7 +35,11 @@
 		- l'attore **CORELOGICACTOR** non notifica piu degli observer ma genera eventi che possono essere catturati da altri attori
 		- si introduce un nuovo attore **PATHBUILDERACTOR** incaricato di costruire il path dell robot elaborando gli eventi generati dall' attore **CORELOGICACTOR**
 	- ### ARCHITETTURA LOGICA
-		-
+		- ![architettura-logica-attori_230424_134956.jpg](../assets/architettura-logica-attori_230424_134956_1682336887877_0.jpg)
+		- #### ARCHITETTURA LOGICA APPL1
+			- ![Appl1-attori_230424_134553.jpg](../assets/Appl1-attori_230424_134553_1682336928963_0.jpg)
+			-
+			-
 	- ### PIANO DI LAVORO
 		-
 		-
