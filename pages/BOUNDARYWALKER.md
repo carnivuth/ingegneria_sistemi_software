@@ -41,12 +41,22 @@
 			-
 			-
 	- ### PIANO DI LAVORO
+		- #### REALIZZAZIONE CORELOGICACTOR
+			- implementazione delle logiche applicative
+			- tempo previsto riutilizzando il componente Appl1Core 1 ora
+		- #### REALIZZAZIONE PATHBUILDERACTOR
+			- implementazione delle logiche di costruzione del percorso del robot
+			- tempo previsto riutilizzando il codice dell'observer 1/2 ore
+		- #### REALIZZAZIONE CMDACTOR
 		-
 		-
 - ## TEST PLANS
 - ## PROGETTO
 - ## DEPLOYMENT
--
+	- ### COMPONENTE APPL1
+		- il componente appl1 verra reso disponibile tramite container docker
+	- ### CMD CONSOLE
+		- la cmd  console si prevede di distribuirla in formato JAR in quanto non necessita di particolari dipendenze
 -
 -
 -
