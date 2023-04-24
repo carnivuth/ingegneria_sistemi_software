@@ -2,9 +2,9 @@
 	- ### ARCHITETTURA LOGICA DI PARTENZA
 		- ![image.png](../assets/image_1682334308113_0.png)
 	- componenti ottenuti nello step precedente
-		- CmdConsole
-		- Appl1
-		- Appl1Core
+		- **CmdConsole**
+		- **Appl1**
+		- **Appl1Core**
 	- è inoltre presente una infrastruttura logica sviluppata internamente per la definizione di **attori** si faccia riferimento a [Actors23](file:///home/matteo/universita/iss/isslab23/iss23Material/html/Actors23.html)
 - ## REQUISITI
 	- Impostare un sistema software che permette ad un utente umano di inviare, mediante una Console, comandi:
@@ -24,6 +24,8 @@
 		- la command console ideata nel precedente step soddisfa i requisiti di controllo sopra descritti, pertanto si prevede il riutilizzo per abbattere i costi di produzione
 	- ### LOGICA APPLICATIVA
 		- La logica applicativa necessita di essere rivista per poter soddisfare il requisito sonar
+		- necessario poter eseguire azioni alla ricezione dei messaggi che segnalano l'interazione con il sonar
+		-
 - ## TEST PLANS
 - ## PROGETTO
 - ## DEPLOYMENT
