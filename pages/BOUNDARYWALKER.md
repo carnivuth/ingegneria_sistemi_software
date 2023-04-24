@@ -1,8 +1,7 @@
 - ## INTRODUZIONE
-	-
 - ## REQUISITI
 	- Impostare un sistema software che permette ad un utente umano di inviare, mediante una Console, comandi:
-		- **start**: per indurre a [VirtualRobot (file:///home/matteo/universita/iss/isslab23/iss23Material/html/Virtua Robot23.html#virtualrobot23) a percorrare il bordo perimetrale (libero da ostacoli) della stanza rappresentata ne [La scena di WEnv (file:///home/matteo/universita/iss/isslab23/iss23Material/html/Virtua Robot23.html#la-scena-di-wenv)
+		- **start**: per indurre a *VirtualRobot* a percorrare il bordo perimetrale (libero da ostacoli) della stanza rappresentata ne *La scena di WEnv*
 		- **stop**: per bloccare il robot
 		- **resume**: per riattivare il robot
 		- **getPath**: per ottenere dal robot informazioni sul cammino percorso
