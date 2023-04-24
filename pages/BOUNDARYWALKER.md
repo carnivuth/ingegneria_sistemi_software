@@ -50,6 +50,9 @@
 		- #### REALIZZAZIONE CMDACTOR
 			- implementazione delle logiche di traduzione dei messaggi ricevuti dalla command console
 			- tempo previsto 30 minuti
+		- #### TESTING
+			- test di funzionamento integrale del sistema
+			- tempo previsto w
 - ## TEST PLANS
 - ## PROGETTO
 - ## DEPLOYMENT
