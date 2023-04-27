@@ -18,7 +18,7 @@
 		- indicare il modo con cui si ritiene opportuno distribuire il prodotto finale.
 - ## ANALISI DEI REQUISITI
 	- #### sonar
-		- componente della scena (inserire link)
+		- componente della scena in grado di rilevare la posizione del robot nella stanza [sonar](sonar)
 - ## ANALISI DEL PROBLEMA
 	- ### I COMANDI
 		- la command console ideata nel precedente step soddisfa i requisiti di controllo sopra descritti, pertanto si prevede il riutilizzo per abbattere i costi di produzione
@@ -52,7 +52,7 @@
 			- tempo previsto 30 minuti
 		- #### TESTING
 			- test di funzionamento integrale del sistema
-			- tempo previsto w
+			- tempo previsto 2 ore
 - ## TEST PLANS
 - ## PROGETTO
 - ## DEPLOYMENT
